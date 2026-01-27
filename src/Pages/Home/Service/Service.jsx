@@ -19,11 +19,9 @@ const Service = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 '>
              {Services.map((service, index) => (
-                <div key={index} className={`card shadow-xl gap-3 p-5 ${
-                        index === 1 ? 'bg-yellow-300' : 'bg-white'
-                    }`}>
+                <div key={index} className='card shadow-xl gap-3 p-5 bg-white hover:bg-yellow-300 transition-all duration-300 group'>
                     <div className='w-20 h-20 mx-auto mb-4 flex items-center justify-center rounded-full bg-blue-100'>
-                        <CiDeliveryTruck className='text-blue-600' size={40}></CiDeliveryTruck>
+                        <CiDeliveryTruck size={40} className="text-blue-600 transition-transform duration-1000 group-hover:translate-x-80"></CiDeliveryTruck>
                     </div>
                     <h2 className='font-extrabold text-lg'>{service.title}</h2>
                     <p className='mt-4'>{service.description}</p>
