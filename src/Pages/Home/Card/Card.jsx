@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <div className='m-10'>
         <h1 className='font-extrabold h-2 text-lg'>How its works</h1>
-        <div className='grid grid-cols-4 m-5 gap-6'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-5 gap-6'>
             <div className='card  shadow-2xl p-5'>
                <FaTruck size={50}></FaTruck>
                 <h2 className='font-bold'>Booking Pick & Drop</h2>
