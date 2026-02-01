@@ -4,6 +4,7 @@ import Card from '../Card/Card.jsx'
 import Service from '../Service/Service.jsx'
 import PartnerSlaider from '../PartnerSlaider/PartnerSlaider.jsx'
 import Featcher from '../Featcher/Featcher.jsx'
+import BeMarchent from '../BeMarchent/BeMarchent.jsx'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Service></Service>
       <PartnerSlaider></PartnerSlaider>
       <Featcher></Featcher>
+      <BeMarchent></BeMarchent>
       
     </div>
   )

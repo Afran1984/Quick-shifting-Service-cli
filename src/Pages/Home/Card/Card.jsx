@@ -7,24 +7,24 @@ import { TbBrandBooking } from "react-icons/tb";
 const Card = () => {
   return (
     <div className='m-10'>
-        <h1 className='font-extrabold h-2 text-5xl'>How its works</h1>
+        <h1 className='font-extrabold h-2 text-2xl'>How its works</h1>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-5 gap-6'>
-            <div className='card  shadow-2xl p-5'>
+            <div data-aos="flip-up" className='card  shadow-2xl p-5'>
                <FaTruck size={50}></FaTruck>
                 <h2 className='font-bold'>Booking Pick & Drop</h2>
                 <p className='font-normal'>From personal packages to business shipments — we deliver on time, every time.</p>
             </div>
-            <div className='card  shadow-2xl p-5'>
+            <div data-aos="flip-up" className='card  shadow-2xl p-5'>
                 <GiCash size={50}></GiCash>
                 <h2 className='font-bold'>Cash On Delivery</h2>
                 <p className='font-normal'>From personal packages to business shipments — we deliver on time, every time.</p>
             </div>
-            <div className='card  shadow-2xl p-5'>
+            <div data-aos="flip-up" className='card  shadow-2xl p-5'>
                 <AiFillProduct size={50}></AiFillProduct>
                 <h2 className='font-bold'>Delivery Hub</h2>
                 <p className='font-normal'>From personal packages to business shipments — we deliver on time, every time.</p>
             </div>
-            <div className='card  shadow-2xl p-5'>
+            <div data-aos="flip-up" className='card  shadow-2xl p-5'>
                 <TbBrandBooking size={50}></TbBrandBooking>
                 <h2 className='font-bold'>Booking SME & Corporate</h2>
                 <p className='font-normal'>From personal packages to business shipments — we deliver on time, every time.</p>

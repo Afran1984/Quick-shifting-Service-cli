@@ -12,7 +12,7 @@ const marqueeImg = [ img01, img02, img03, img04, img05, img06, img07 ];
 
 const PartnerSlaider = () => {
   return (
-    <div className='max-w-6xl mx-auto text-center py-10'>
+    <div  className='max-w-6xl mx-auto text-center py-10'>
         <h1 className='font-extrabold text-3xl mb-8'>We've helped thousands of sales teams</h1>
       <Marquee speed={50} pauseOnHover={true}>
         {marqueeImg.map((img, index) => (

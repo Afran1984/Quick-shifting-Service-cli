@@ -9,7 +9,7 @@ const Featcher = () => {
       <div className="max-w-6xl mx-auto px-6">
 
         {/* 1st Card */}
-        <div className="flex items-center gap-15 bg-[#c7d6d6] rounded-xl">
+        <div data-aos="fade-up" data-aos-duration="3000" className="flex items-center gap-15 bg-[#c7d6d6] rounded-xl">
           <div className="w-2/12 p-6">
             <img src={trackingImg} alt="Tracking" className="w-full" />
           </div>
@@ -30,7 +30,7 @@ const Featcher = () => {
 
         </div>
         {/* 2st Card */}
-        <div className="flex items-center mt-3 gap-15 bg-[#c7d6d6] rounded-xl">
+        <div data-aos="fade-up" data-aos-duration="3000" className="flex items-center mt-3 gap-15 bg-[#c7d6d6] rounded-xl">
           <div className="w-2/12 p-6">
             <img src={trackingImg} alt="Tracking" className="w-full" />
           </div>
@@ -51,7 +51,7 @@ const Featcher = () => {
 
         </div>
         {/* 3st Card */}
-        <div className="flex items-center mt-3 gap-15 bg-[#c7d6d6] rounded-xl">
+        <div data-aos="fade-up" data-aos-duration="3000" className="flex items-center mt-3 gap-15 bg-[#c7d6d6] rounded-xl">
           <div className="w-2/12 p-6">
             <img src={trackingImg} alt="Tracking" className="w-full" />
           </div>

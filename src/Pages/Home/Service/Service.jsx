@@ -17,7 +17,7 @@ const Service = () => {
       <h1 className='font-extrabold text-white text-3xl'>Our Services</h1>
       <p className='text-white'>Enjoy fast, reliable parcel delivery with real-time tracking and zero hassle. From personal packages to <br /> business shipments — we deliver on time, every time.</p>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 '>
+        <div data-aos="fade-up" data-aos-duration="3000" className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 '>
              {Services.map((service, index) => (
                 <div key={index} className='card shadow-xl gap-3 p-5 bg-white hover:bg-yellow-300 transition-all duration-300 group'>
                     <div className='w-20 h-20 mx-auto mb-4 flex items-center justify-center rounded-full bg-blue-100'>
